@@ -1,0 +1,23 @@
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: grey;
+}
+.noha{
+    margin:20px;
+    padding:3px;
+    overflow: hidden;
+}
+.roro{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    border: 20px gray dashed;
+    padding-top: 5px;
+    margin:150px;
+    margin-top: 100px;
+    text-align: center;
+   float:right;
+  }
+  body{
+    background-color: rgb(93, 189, 157);
+  }

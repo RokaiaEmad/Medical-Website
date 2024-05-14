@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="types.css">
+    <meta charset="UTF.8">
+    <title>Blood Transfution</title>
+    <meta name="description" content="This is Blood transfusion">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+          $("h1").mouseenter(function(){
+          $(".noha").fadeTo(2000,0.45);
+          })
+        });
+        $(document).ready(function()
+        {
+          $("h1").mouseleave(function(){
+          $(".roro").animate({left: '20px'}, 1000);
+          $(".roro").animate({fontSize: '2em'}, 1000);
+          })
+        })
+    </script>
+</head>
+
+<body>
+    <h1>What are the diffrent types of blood transfusion?</h1>
+    <pre class="roro">The donated blood is divided into different parts and stored in special bags or bottles,
+        which can then be given to you.Only the part your body needs. The three main parts include:
+
+        Red blood cells that carry oxygen to tissues and organs.
+
+        Platelets that help stop the bleeding.
+
+        Plasma containing blood-clotting factors (to help stop bleeding), as well as other
+        proteins and antibodie counter.
+  </pre>
+
+
+    <div class="noha">
+        <img src="images/types.gif" alt="" width="450px" height="500px" id="blood">
+    </div>
+</body>
+
+</html>

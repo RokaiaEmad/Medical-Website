@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Risks.css">
+    <meta charset="UTF.8">
+    <title>Risks</title>
+    <meta name="description" content="This is Risks">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+          $("h1").mouseleave(function(){
+          $(".noha").fadeTo(3000,0.30);
+          })
+        });
+        $(document).ready(function()
+        {
+          $("#rr").mouseleave(function(){
+          $("#bb").toggle(1000)
+          $("#b2").toggle(1000)
+          })
+        });
+    </script>
+</head>
+
+<body>
+    <h1>What are the risks of a blood transfusion?</h1>
+    
+    <ul class="roro">
+        <b id="rr"> The risks are:</b>
+        <li id="bb">Blood transfusions are generally considered safe,<br> but there is some risk of complications.<br> Mild complications and rarely severe ones can occur<br> during the transfusion or several days or more after.<br>More common reactions include allergic reactions,<br> which might cause hives and itching, and fever</li>
+        <li id="b2">Your immune system attacks the transfused red blood<br> cells because the donor blood type is not a good match.<br> The attacked cells release a substance into your blood that harms your kidneys.</li>
+        
+    </ul>
+    <div class="noha">
+        <img src="images/risks.gif" alt="" width="450px" height="500px" id="blood">
+    </div>
+
+
+</body>
+
+</html>
