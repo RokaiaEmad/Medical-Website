@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+<!--<script type="text/javascript">
+               
+        function newPage(num) {
+        var url=new Array();
+        url[0]="file:///C:/Users/alie0/OneDrive/Desktop/WEB/sign%20up.html";
+        
+        window.location=url[0];
+        }
+        </script>-->
+</head>
+<body>
+    <div class="loginbox">
+        <h1>Sign In</h1>
+        <form method="post" action="php/login.php">
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username"  name="username" id="username">
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" name="password" id="password">
+            <button type="submit" id="mano" name="login" value="Login" >Sign In</button>
+           
+            <!--<script>
+                function myFunction() {
+                  window.location.href="file:///C:/Users/alie0/OneDrive/Desktop/WEB/sign%20up.html";
+                }
+              </script>-->
+          <!-- <a href='file:///C:/Users/alie0/OneDrive/Desktop/WEB/sign%20up.html'><input type="submit" id="lol" value="Sign Up"></a>-->
+
+            <pre class="massege">                If you do not have an 
+                account please sign up!</pre> 
+                
+               <!-- <style type="text/css">
+                    .my_content_container a {
+                        border: none;
+                    outline: none;
+                    height: 40px;
+                    width: 300px;
+                border-radius: 10px;
+                background: #fb2525;
+              color: white;
+                 font-size: 20px;
+              border-radius: 10px;
+                      cursor: pointer;      
+                    }
+                    </style>
+                    
+                    <div class="my_content_container">
+                        <a href="file:///C:/Users/alie0/OneDrive/Desktop/WEB/sign%20up.html">Sign Up</a>
+                    </div>-->
+
+                <!--<button id="myButton" class="float-left submit-button" >Home</button>
+
+           <script type="text/javascript">
+          document.getElementById("myButton").onclick = function () {
+        location.href = "file:///C:/Users/alie0/OneDrive/Desktop/WEB/sign%20up.html";
+            };
+    </script>-->
+    </form>
+    <button type="submit" id="lol" onclick="window.open('sign up.html');" >Sign Up</button>
+        <a href="forget.html"><u>Forgot Password?</u></a>
+       
+        
+    </div>
+</body>
+</html>

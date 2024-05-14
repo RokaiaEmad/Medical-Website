@@ -1,0 +1,58 @@
+body{
+    background-image: url('../images/BLOOD.jpg');
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signupbox{
+    width: 390px;
+    height: 750px;
+    background: #1c2833;
+    color: white;
+    margin: 70px auto;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: -60px;
+}
+label{
+
+    font-size: 18px;
+    display: block;
+    margin-left: 20px;
+    padding-left: 20%;
+}
+input{
+
+    width: 60%;
+    margin: 0 0 10px 10px;
+    padding-left: 20%;
+}
+input[type="text"],input[type="password"],input[type="phone number"],input[type="mail"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+#mano{
+    border: none;
+    margin-left: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #fb2525;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: blueviolet;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="sign up.css">
+    <meta charset="UTF.8">
+    <title>sign up page</title>
+    <meta name="description" content="This is sign up page">
+    <script src="pass.JS" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="signupbox">
+        <h1>Sign Up</h1>
+        <form method="post" onsubmit="return check()" name="myForm" action="php/register.php">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter Your First Name"  name="registerFirstName"
+                id="registerFirstName" value="" required>
+            <label>last Name</label>
+            <input type="text" placeholder="Enter Your last Name"  name="registerLastName"
+                id="registerLastName" value="" required>
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username"  name="registerUsername" id="registerUsername" value="" required>
+            <label>Age</label>
+            <input type="text"  placeholder="Enter Your Age"  name="registerAge" id="registerAge" value="" required>
+            <label>Phone Number</label>
+            <input type="phone number"  placeholder="Enter Your Phone Number" 
+                name="registerPhoneNumber" id="registerPhoneNumber" value="" required />
+            <label>E-mail</label>
+            <input type="mail" placeholder="....@example.com"  name="registeremail" id="registeremail" value="" required>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password"  name="registerPassword" id="registerPassword" value="" required>
+            <label>Confirm Password</label>
+            <input type="Password"  placeholder="8-18 characters" name="registerConfirmPassword"
+                id="registerConfrimPassword" value="" required />
+            <button type="submit" id="mano"
+                name="register" value="Register"  >Submit</button>
+        </form>
+</div>
+</body>
+
+</html>
